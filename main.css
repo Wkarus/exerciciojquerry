@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.64);
+    padding-top: 100px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.container{
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.container li{
+    cursor: pointer;
+}
+
+
+#nova-lista, #submit {
+border: none;
+font: 16px;
+outline: none;
+padding: 16px;
+}
+
+#nova-lista{
+    width: 300px;
+    border-radius: 16px;
+    width: 300px;
+    padding: 16PX;
+}
+
+#submit{
+    border-radius: 50px;
+    background-color: rgb(8, 69, 18) ;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#to-do-list{
+display: flex;
+flex-direction: column;
+}
+
+.finalizada {
+    text-decoration: line-through
+}
